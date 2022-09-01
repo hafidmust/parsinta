@@ -24,6 +24,7 @@
                                     </div>
                                 @enderror
                                 <input type="submit" value="Register" class="btn btn-primary">
+                                <a href="{{url('auth/google')}}">Login Google</a>
                             </div>
                         </form>
                     </div>
